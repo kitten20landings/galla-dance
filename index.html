@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- swiper -->
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="media/nav/nav-media.css">
+    <link rel="stylesheet" href="media/main__page/media.css">
+
+</head>
+
+<body>
+    <!-- copied -->
+    <nav class="menu">
+
+        <h1 class="menu__company-name">
+            Школа балета
+            <br>Galla Dance
+        </h1>
+
+        <div class="menu__links">
+            <a href="index.html" class="menu__link menu__link_active">home</a>
+            <a href="about.html" class="menu__link">о нас</a>
+            <a href="classes.html" class="menu__link">классы</a>
+            <a href="teachers.html" class="menu__link">преподаватели</a>
+            <a href="performances.html" class="menu__link">наши выступления</a>
+
+            <img src="img/nav/shoes.png" alt="" id="nav__shoes">
+        </div>
+    </nav>
+
+    <nav class="menu-mobile">
+        <div class="menu__stripes">
+            <div class="menu__stripe menu__stripe_fst"></div>
+            <div class="menu__stripe menu__stripe_scnd"></div>
+            <div class="menu__stripe menu__stripe_thrd"></div>
+        </div>
+
+        <div class="menu__content">
+            <a href="index.html" class="menu__link menu__link_active">home</a>
+            <a href="about.html" class="menu__link">о нас</a>
+            <a href="classes.html" class="menu__link">классы</a>
+            <a href="teachers.html" class="menu__link">преподаватели</a>
+            <a href="performances.html" class="menu__link">наши выступления</a>
+        </div>
+
+        <img src="img/nav/shoes.png" alt="" id="nav__shoes">
+    </nav>
+
+    <div class="preloader">
+        <div class="preloader__content">
+            <div class="preloader__stroke">
+                
+            </div>
+        </div>
+    </div>
+    <!-- copied -->
+
+    <div class="main__wrapper">
+        <div class="home__screen">
+            <div class="home__column home__column_fst">
+                <img src="img/main__page/dancer.png" alt="" class="main__image">
+
+                <div class="triangle__block">
+                    <div class="triangle">&#9650;</div>
+                </div>
+
+                <!--  -->
+                <div class="cross__block cross__block_fst">
+                    <div class="cross">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="cross__block cross__block_scnd">
+                    <div class="cross">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="cross__block cross__block_thrd">
+                    <div class="cross">
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <div class="home__column home__column_scnd">
+                <div class="swiper-container mySwiper main-page__gallery">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/1.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/3.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/2.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                        <div class="swiper-button-next swiper-button"><img src="img/arrows/arrow-right.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-button"><img src="img/arrows/arrow-left.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="swiper-container mySwiper main-page__gallery_mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/1.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/3.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main__page/gallery/2.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                        <div class="swiper-button-next swiper-button"><img src="img/arrows/arrow-right.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev swiper-button"><img src="img/arrows/arrow-left.png" alt=""></div>
+                    </div>
+                </div>
+
+                <p class="screen__subtitle">Занятие, в основе которого лежит классический экзерсис у балетного станка на
+                    середине зала.
+                    Комплекс всевозможных тренировочных упражнений, способствующий развитию силы мышц, эластичности
+                    связок, воспитанию устойчивости и правильной координации движений у учащихся.</p>
+
+                <a href="" class="button__link">
+                    <button class="button_main">Записаться на пробное занятие
+                        <img src="img/main__page/button-before__img.png" alt="">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

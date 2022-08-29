@@ -1,0 +1,30 @@
+@media (max-width: 1650px) {
+  .menu {
+    padding-top: 40px;
+  }
+  .menu .menu__company-name {
+    font-size: 36px;
+  }
+  .menu .menu__links .menu__link {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1270px) {
+  .menu .menu__company-name {
+    font-size: 27px;
+  }
+  .menu .menu__links .menu__link {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1000px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    background-color: black;
+    padding-top: 25px;
+  }
+}

@@ -1,0 +1,137 @@
+@media(max-width: 1500px) {
+    .classes__screen {
+        .classes__title-block {
+            .classes__title-column {
+                .screen__subtitle {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1400px) {
+    .classes__screen {
+        .classes__title-block {
+            flex-direction: column;
+            align-items: center;
+
+            .classes__title-column {
+                width: 100%;
+            }
+        }
+
+        .screen__swipers-container {
+            padding-top: 100px;
+
+            .swiper-pagination {
+                font-size: 5vw;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 850px) {
+    .classes__screen {
+
+        .main__screen-title_144 {
+            text-align: center;
+            font-size: 15vw;
+        }
+
+        .classes__title-block {
+            .classes__title-column {
+                &:nth-child(2) {
+                    width: 100%;
+
+                    .screen__subtitle {
+                        font-size: 3.5vw;
+                    }
+                }
+            }
+        }
+
+        .screen__swipers-container {
+            display: flex;
+            flex-direction: column;
+
+            .swiper-pagination {
+                font-size: 12vw;
+            }
+
+            .swiper-slide {
+                width: 320px;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 50%;
+
+                img {
+                    width: 50%;
+                }
+            }
+
+
+            .swiper-button-next {
+                justify-content: flex-start;
+
+                right: 0;
+            }
+
+            .swiper-button-prev {
+                justify-content: flex-end;
+
+                left: 0;
+            }
+
+            .numClassesSwiper {
+                width: 100%;
+            }
+
+            .swiper-container {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    .main__wrapper{
+        padding: 0;
+    }
+
+    .classes__screen {
+        .classes__title-block {
+            &:nth-child(1) {
+                padding: 0 50px;
+            }
+
+            .classes__title-column:nth-child(2) {
+                .screen__subtitle {
+                    font-size: 5vw;
+                }
+            }
+        }
+
+        .screen__swipers-container {
+            .swiper-pagination {
+                font-size: 15vw;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                img {
+                    width: 65%;
+                }
+            }
+        }
+    }
+}
